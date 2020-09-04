@@ -94,13 +94,19 @@ div .rounded {
   width: 13.9rem;
 }
 
-.bring-front {
+.bottom-nav {
   z-index: 1;
 }
 
 @media screen and (min-width: 992px) {
   .navbar-brand svg {
     width: 22.5rem;
+  }
+
+  .bottom-nav {
+    position: static !important;
+    width: 100%;
+    z-index: 0;
   }
 }
 
