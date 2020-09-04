@@ -1,14 +1,36 @@
-.fs-13 {
-    font-size: 0.8rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* ---------------------------------- Font sizes ---------------------------------- */
+
+.fs-13 {
+  font-size: 0.8rem;
+}
+
+/* ---------------------------------- Background colors ---------------------------------- */
 
 .header-top {
   background-color: #f72210;
 }
 
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+/* ---------------------------------- Colors ---------------------------------- */
+
 .navbar-brand {
   fill: white;
 }
+
+/* --------------------------------------------------- HEADER ------------------------------------------------------- */
 
 .navbar-brand svg {
   width: 7.5rem;
@@ -20,11 +42,11 @@
 }
 
 div .rounded {
-    border-radius: 1.25rem !important;
+  border-radius: 1.25rem !important;
 }
 
 .fa-user {
-    color: antiquewhite;
+  color: antiquewhite;
 }
 
 @media screen and (min-width: 992px) {
@@ -32,3 +54,5 @@ div .rounded {
     width: 22.5rem;
   }
 }
+
+/* --------------------------------------------------- MAIN SECTION ------------------------------------------------------- */
