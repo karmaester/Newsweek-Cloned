@@ -77,6 +77,11 @@ div .rounded {
   text-decoration: none;
 }
 
+.bottom-nav {
+    right: 0;
+    width: 13.8rem;
+}
+
 @media screen and (min-width: 992px) {
   .navbar-brand svg {
     width: 22.5rem;
