@@ -10,8 +10,6 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* ---------------------------------- Border ---------------------------------- */
-
 
 /* ---------------------------------- Font sizes ---------------------------------- */
 
@@ -89,15 +87,19 @@ div .rounded {
   width: 13.9rem;
 }
 
+.bring-front {
+    z-index: 1;
+  }
+
 @media screen and (min-width: 992px) {
   .navbar-brand svg {
     width: 22.5rem;
   }
+
+
 }
 
-.bring-front {
-  z-index: 1;
-}
+
 
 /* --------------------------------------------------- MAIN SECTION ------------------------------------------------------- */
 
