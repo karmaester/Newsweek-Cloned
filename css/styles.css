@@ -4,10 +4,20 @@
   box-sizing: border-box;
 }
 
+/* ---------------------------------- Font family ---------------------------------- */
+
+.f-family {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 /* ---------------------------------- Font sizes ---------------------------------- */
 
 .fs-13 {
   font-size: 0.8rem;
+}
+
+.fs-18 {
+  font-size: 1.1rem;
 }
 
 /* ---------------------------------- Background colors ---------------------------------- */
@@ -20,6 +30,10 @@
 
 .navbar-brand {
   fill: white;
+}
+
+.c-white {
+  color: white;
 }
 
 /* ---------------------------------- Positions ---------------------------------- */
@@ -49,6 +63,18 @@ div .rounded {
 
 .fa-user {
   color: antiquewhite;
+}
+
+.btn-warning:hover {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.login:hover {
+  background-color: #f72210;
+  color: white;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 992px) {
