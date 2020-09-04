@@ -3,19 +3,20 @@
 }
 
 .header-top {
-    background-color: #f72210;
+  background-color: #f72210;
 }
 
 .navbar-brand {
-    fill: white;
+  fill: white;
 }
 
 .navbar-brand svg {
-    width: 7.5rem;
+  width: 7.5rem;
 }
 
-.container-fluid, .container {
-    max-width: 1310px;
+.container-fluid,
+.container {
+  max-width: 1310px;
 }
 
 div .rounded {
@@ -23,8 +24,7 @@ div .rounded {
 }
 
 @media screen and (min-width: 992px) {
-    .navbar-brand svg {
-        width: 22.5rem;
-    }
-
+  .navbar-brand svg {
+    width: 22.5rem;
+  }
 }
