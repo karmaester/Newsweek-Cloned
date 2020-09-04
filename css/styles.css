@@ -23,6 +23,10 @@ div .rounded {
     border-radius: 1.25rem !important;
 }
 
+.fa-user {
+    color: antiquewhite;
+}
+
 @media screen and (min-width: 992px) {
   .navbar-brand svg {
     width: 22.5rem;
