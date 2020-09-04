@@ -10,6 +10,9 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+/* ---------------------------------- Border ---------------------------------- */
+
+
 /* ---------------------------------- Font sizes ---------------------------------- */
 
 .fs-13 {
@@ -34,6 +37,10 @@
 
 .c-white {
   color: white;
+}
+
+.c-dark {
+    color: #212529 !important;
 }
 
 /* ---------------------------------- Positions ---------------------------------- */
@@ -79,7 +86,7 @@ div .rounded {
 
 .bottom-nav {
   right: 0;
-  width: 13.8rem;
+  width: 13.9rem;
 }
 
 @media screen and (min-width: 992px) {
