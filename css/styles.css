@@ -16,18 +16,20 @@
   background-color: #f72210;
 }
 
-.bg-orange {
-  background-color: orange;
-}
-
-.bg-green {
-  background-color: green;
-}
-
 /* ---------------------------------- Colors ---------------------------------- */
 
 .navbar-brand {
   fill: white;
+}
+
+/* ---------------------------------- Positions ---------------------------------- */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
 }
 
 /* --------------------------------------------------- HEADER ------------------------------------------------------- */
@@ -56,3 +58,13 @@ div .rounded {
 }
 
 /* --------------------------------------------------- MAIN SECTION ------------------------------------------------------- */
+
+.corner {
+  bottom: 0;
+  margin-bottom: 6px;
+}
+
+.article-title:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
