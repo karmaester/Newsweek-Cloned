@@ -94,3 +94,10 @@ div .rounded {
   text-decoration: underline;
   text-decoration-color: red;
 }
+
+.section-title {
+  font-size: 15px;
+  color: rgba(3, 3, 3, 0.4);
+  line-height: 15px;
+  margin-top: 20px;
+}
