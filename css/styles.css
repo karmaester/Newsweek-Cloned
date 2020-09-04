@@ -16,6 +16,10 @@
   font-size: 0.8rem;
 }
 
+.fs-16 {
+  font-size: 16px;
+}
+
 .fs-18 {
   font-size: 1.1rem;
 }
@@ -24,6 +28,10 @@
 
 .header-top {
   background-color: #f72210;
+}
+
+.bg-graygreen {
+  background-color: #c2d4d7;
 }
 
 /* ---------------------------------- Colors ---------------------------------- */
@@ -99,6 +107,11 @@ div .rounded {
   margin-bottom: 6px;
 }
 
+.corner-small {
+  bottom: 0;
+  margin-bottom: 2px;
+}
+
 .article-title:hover {
   text-decoration: underline;
   text-decoration-color: red;
@@ -109,4 +122,12 @@ div .rounded {
   color: rgba(3, 3, 3, 0.4);
   line-height: 15px;
   margin-top: 20px;
+}
+
+.lh-short {
+  line-height: 0px !important;
+}
+
+.text-secondary:hover {
+  text-decoration: none;
 }
