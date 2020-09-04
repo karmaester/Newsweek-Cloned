@@ -10,6 +10,7 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+
 /* ---------------------------------- Font sizes ---------------------------------- */
 
 .fs-13 {
@@ -42,6 +43,10 @@
 
 .c-white {
   color: white;
+}
+
+.c-dark {
+    color: #212529 !important;
 }
 
 /* ---------------------------------- Positions ---------------------------------- */
@@ -87,18 +92,22 @@ div .rounded {
 
 .bottom-nav {
   right: 0;
-  width: 13.8rem;
+  width: 13.9rem;
 }
+
+.bring-front {
+    z-index: 1;
+  }
 
 @media screen and (min-width: 992px) {
   .navbar-brand svg {
     width: 22.5rem;
   }
+
+
 }
 
-.bring-front {
-  z-index: 1;
-}
+
 
 /* --------------------------------------------------- MAIN SECTION ------------------------------------------------------- */
 
