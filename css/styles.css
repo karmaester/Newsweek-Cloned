@@ -10,7 +10,6 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-
 /* ---------------------------------- Font sizes ---------------------------------- */
 
 .fs-13 {
@@ -46,7 +45,7 @@
 }
 
 .c-dark {
-    color: #212529 !important;
+  color: #212529 !important;
 }
 
 /* ---------------------------------- Positions ---------------------------------- */
@@ -96,18 +95,14 @@ div .rounded {
 }
 
 .bring-front {
-    z-index: 1;
-  }
+  z-index: 1;
+}
 
 @media screen and (min-width: 992px) {
   .navbar-brand svg {
     width: 22.5rem;
   }
-
-
 }
-
-
 
 /* --------------------------------------------------- MAIN SECTION ------------------------------------------------------- */
 
@@ -134,9 +129,23 @@ div .rounded {
 }
 
 .lh-short {
-  line-height: 0px !important;
+  line-height: 0 !important;
 }
 
 .text-secondary:hover {
   text-decoration: none;
+}
+
+.MORE-STORIES img {
+  width: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .MORE-STORIES img {
+    width: 100%;
+  }
+}
+
+.adjust {
+  height: fit-content;
 }
