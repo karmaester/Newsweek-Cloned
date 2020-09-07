@@ -117,7 +117,6 @@ div>button.btn:hover {
 }
 
 .login {
-  background-color: #f72210;
   color: white;
   text-decoration: none;
 }
@@ -172,7 +171,7 @@ div>button.btn:hover {
   }
   
   .border-lg {
-    border-right: 1px solid gray;
+    border-right: 1px solid #dee2e6;
   }
 }
 
