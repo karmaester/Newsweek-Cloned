@@ -142,7 +142,7 @@ div .rounded {
   .li-minw {
     max-width: 125px;
   }
-  
+
   .li-minw2 {
     min-width: 100px;
   }
@@ -215,4 +215,11 @@ div .rounded {
 
 .adjust {
   height: fit-content;
+}
+
+/* -------------------------------- IN THE MAGAZINE ------------------------------------ */
+
+.icon-n {
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
 }
