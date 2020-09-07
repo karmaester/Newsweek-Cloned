@@ -38,14 +38,14 @@
   background-color: #c2d4d7;
 }
 
+.bg-yellow {
+  background-color: #ffe400;
+}
+
 /* ---------------------------------- Colors ---------------------------------- */
 
 .navbar-brand {
   fill: white;
-}
-
-.c-white {
-  color: white;
 }
 
 .c-dark {
@@ -104,7 +104,6 @@ div .rounded {
 }
 
 .btn-offer {
-  background-color: #ffe400;
   border: none;
 }
 
@@ -120,7 +119,6 @@ div > button.btn:hover {
 }
 
 .login {
-  color: white;
   text-decoration: none;
 }
 
@@ -151,7 +149,7 @@ div > button.btn:hover {
     width: 22.5rem;
   }
 
-  .bottom-nav {
+  .bottom-nav2 {
     position: static !important;
     width: 100%;
     z-index: 0;
