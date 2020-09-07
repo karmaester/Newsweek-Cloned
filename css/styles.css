@@ -42,6 +42,10 @@
   background-color: #ffe400;
 }
 
+.bg-back {
+  background-color: #f4f5f6;
+}
+
 /* ---------------------------------- Colors ---------------------------------- */
 
 .navbar-brand {
@@ -257,3 +261,13 @@ div > button.btn:hover {
 }
 
 /* --------------------------------------------------- FOOTER ------------------------------------------------------- */
+
+.images {
+  height: 260px;
+  width: 260px;
+}
+
+.second-img {
+  bottom: 0;
+  right: 0;
+}
