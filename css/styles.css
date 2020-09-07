@@ -99,13 +99,24 @@ div .rounded {
   color: antiquewhite;
 }
 
-.btn-warning:hover {
+.btn-offer {
+  background-color: #ffe400;
+  border: none;
+} 
+
+div>button.btn:hover {
+  background-color: #ffe400;
   color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107;
 }
 
-.login:hover {
+
+.btn:hover {
+  background-color: #f72210;
+  color: white;
+  text-decoration: none;
+}
+
+.login {
   background-color: #f72210;
   color: white;
   text-decoration: none;
@@ -118,6 +129,19 @@ div .rounded {
 
 .bottom-nav {
   z-index: 1;
+}
+
+.login-link:hover {
+  text-decoration: none;
+}
+
+.weather:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.articles:hover {
+  color: #f72210 !important;
 }
 
 @media screen and (min-width: 992px) {
