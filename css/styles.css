@@ -170,7 +170,7 @@ div>button.btn:hover {
   .li-minw2 {
     min-width: 100px;
   }
-
+  
   .border-lg {
     border-right: 1px solid gray;
   }
@@ -248,6 +248,9 @@ div>button.btn:hover {
 /* -------------------------------- IN THE MAGAZINE ------------------------------------ */
 
 .icon-n {
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
-    no-repeat #f72210;
+  flex: none;
+  display: block;
+  height: 25px;
+  width: 25px;
+  background
 }
