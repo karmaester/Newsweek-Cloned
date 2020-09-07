@@ -135,6 +135,15 @@ div>button.btn:hover {
   text-decoration: none;
 }
 
+.weather:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.articles:hover {
+  color: #f72210 !important;
+}
+
 @media screen and (min-width: 992px) {
   .navbar-brand svg {
     width: 22.5rem;
