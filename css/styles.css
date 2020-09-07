@@ -131,8 +131,20 @@ div .rounded {
     z-index: 0;
   }
 
-  .bigger-li {
-    max-width: 10% !important;
+  .button-offer {
+    min-width: 13.75rem;
+  }
+
+  .search-input {
+    max-width: 6rem;
+  }
+
+  .li-minw {
+    max-width: 125px;
+  }
+  
+  .li-minw2 {
+    min-width: 100px;
   }
 }
 
