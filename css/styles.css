@@ -58,6 +58,28 @@
   position: absolute;
 }
 
+/* ----------------------------------------- widths ------------------------------------- */
+
+.w-80 {
+  width: 80px;
+}
+
+.w-70 {
+  width: 70px;
+}
+
+.w-80p {
+  width: 80%;
+}
+
+.w-88 {
+  width: 88px;
+}
+
+.w-20p {
+  width: 20%;
+}
+
 /* --------------------------------------------------- HEADER ------------------------------------------------------- */
 
 .navbar-brand svg {
@@ -139,23 +161,38 @@ div .rounded {
 }
 
 .lh-short {
-  line-height: 0 !important;
+  line-height: 1.1 !important;
+}
+
+.debate {
+  border-top: 4px solid gray;
+  border-bottom: 4px solid gray;
+}
+
+.line {
+  z-index: 20;
+}
+
+.h-98 {
+  height: 98px;
+}
+
+.division {
+  text-align: center;
+  margin: 4px auto;
+}
+
+.division span {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  z-index: 22;
 }
 
 .text-secondary:hover {
   text-decoration: none;
-}
-
-.w-80 {
-  width: 80px;
-}
-
-.w-80p {
-  width: 80%;
-}
-
-.w-20p {
-  width: 20%;
 }
 
 @media screen and (max-width: 768px) {
