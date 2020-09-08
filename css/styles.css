@@ -219,6 +219,11 @@ div > button.btn:hover {
 
 .line {
   z-index: 20;
+  margin-top: 4%;
+}
+
+.d-flow {
+  display: flow-root;
 }
 
 .h-98 {
