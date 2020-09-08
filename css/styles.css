@@ -312,6 +312,10 @@ div > button.btn:hover {
   .down-li {
     border-right: 1px solid rgba(0, 0, 0, 0.2);
   }
+
+  .resize {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -330,4 +334,10 @@ div > button.btn:hover {
 
 .m-top {
   margin-top: 41px;
+}
+
+@media screen and (max-width: 992px) {
+  .resize {
+    width: 50%;
+  }
 }
