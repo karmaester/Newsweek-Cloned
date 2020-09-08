@@ -169,7 +169,7 @@ div > button.btn:hover {
   }
 
   .button-offer {
-    min-width: 13.75rem;
+    min-width: 7.75rem;
   }
 
   .search-input {
@@ -187,6 +187,10 @@ div > button.btn:hover {
   .border-lg {
     border-right: 1px solid #dee2e6;
   }
+}
+
+.margin-top-header {
+  margin-top: 109px;
 }
 
 /* --------------------------------------------------- MAIN SECTION ------------------------------------------------------- */
