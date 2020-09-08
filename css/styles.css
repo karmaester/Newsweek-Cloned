@@ -264,6 +264,14 @@ div > button.btn:hover {
     no-repeat #f72210;
 }
 
+.brick {
+  margin: 15px;
+}
+
+.info {
+  margin: 25px;
+}
+
 .images {
   height: 260px;
   width: 260px;
