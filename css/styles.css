@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------------------------- Font family ---------------------------------- */
+
+.f-family {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* ---------------------------------- Font sizes ---------------------------------- */
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-13 {
+  font-size: 0.8rem;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 1.1rem;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+/* ---------------------------------- Background colors ---------------------------------- */
+
+.bg-red {
+  background-color: #f72210;
+}
+
+.bg-graygreen {
+  background-color: #c2d4d7;
+}
+
+.bg-yellow {
+  background-color: #ffe400;
+}
+
+.bg-back {
+  background-color: #f4f5f6;
+}
+
+/* ---------------------------------- Colors ---------------------------------- */
+
+.navbar-brand {
+  fill: white;
+}
+
+.c-dark {
+  color: #212529 !important;
+}
+
+/* ---------------------------------- Positions ---------------------------------- */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/* ----------------------------------------- widths ------------------------------------- */
+
+.w-80 {
+  width: 80px;
+}
+
+.w-70 {
+  width: 70px;
+}
+
+.w-80p {
+  width: 80%;
+}
+
+.w-88 {
+  width: 88px;
+}
+
+.w-20p {
+  width: 20%;
+}
+
+.w-40p {
+  width: 40%;
+}
+
+/* --------------------------------------------------- HEADER ------------------------------------------------------- */
+
+.navbar-brand svg {
+  width: 7.5rem;
+}
+
+.container-fluid,
+.container {
+  max-width: 1310px;
+}
+
+div .rounded {
+  border-radius: 1.25rem !important;
+}
+
+.fa-user {
+  color: antiquewhite;
+}
+
+.btn-offer {
+  border: none;
+}
+
+div > button.btn:hover {
+  background-color: #ffe400;
+  color: #212529;
+}
+
+.btn:hover {
+  background-color: #f72210;
+  color: white;
+  text-decoration: none;
+}
+
+.login {
+  text-decoration: none;
+}
+
+.bottom-nav {
+  right: 0;
+  width: 13.9rem;
+  z-index: 1;
+}
+
+.login-link:hover {
+  text-decoration: none;
+}
+
+.weather:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.articles:hover {
+  color: #f72210 !important;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand svg {
+    width: 22.5rem;
+  }
+
+  .bottom-nav2 {
+    position: static !important;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .button-offer {
+    min-width: 7.75rem;
+  }
+
+  .search-input {
+    max-width: 6rem;
+  }
+
+  .li-minw {
+    max-width: 125px;
+  }
+
+  .li-minw2 {
+    min-width: 100px;
+  }
+
+  .border-lg {
+    border-right: 1px solid #dee2e6;
+  }
+}
+
+.margin-top-header {
+  margin-top: 109px;
+}
+
+/* --------------------------------------------------- MAIN SECTION ------------------------------------------------------- */
+
+.corner {
+  bottom: 0;
+  margin-bottom: 6px;
+}
+
+.corner-small {
+  bottom: 0;
+  margin-bottom: 2px;
+}
+
+.article-title:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.section-title {
+  font-size: 15px;
+  color: rgba(3, 3, 3, 0.4);
+  line-height: 15px;
+  margin-top: 20px;
+}
+
+.lh-short {
+  line-height: 1.1 !important;
+}
+
+.debate {
+  border-top: 4px solid gray;
+  border-bottom: 4px solid gray;
+}
+
+.line {
+  z-index: 20;
+  margin-top: 4%;
+}
+
+.d-flow {
+  display: flow-root;
+}
+
+.h-98 {
+  height: 98px;
+}
+
+.division {
+  text-align: center;
+  margin: 4px auto;
+}
+
+.division span {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  z-index: 22;
+}
+
+.text-secondary:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .w-sm-100 {
+    width: 100%;
+  }
+}
+
+.adjust {
+  height: fit-content;
+}
+
+/* -------------------------------- IN THE MAGAZINE ------------------------------------ */
+
+.icon-n {
+  flex: none;
+  display: block;
+  height: 25px;
+  width: 25px;
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+      no-repeat #f72210;
+}
+
+.brick {
+  margin: 15px;
+}
+
+.info {
+  margin: 25px;
+}
+
+.images {
+  height: 260px;
+  width: 260px;
+}
+
+.second-img {
+  bottom: 0;
+  right: 0;
+}
+
+/* --------------------------------------------------- FOOTER ------------------------------------------------------- */
+
+.svg-color {
+  fill: #f72210;
+  width: 14.7rem;
+}
+
+.icon-big {
+  transform: scale(1.5);
+}
+
+@media screen and (min-width: 768px) {
+  .down-li {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .resize {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hide-small {
+    display: none;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  .minus-top {
+    margin-top: -100px;
+  }
+}
+
+.m-top {
+  margin-top: 41px;
+}
+
+@media screen and (max-width: 992px) {
+  .resize {
+    width: 50%;
+  }
+}
