@@ -96,6 +96,10 @@
   width: 20%;
 }
 
+.w-40p {
+  width: 40%;
+}
+
 /* --------------------------------------------------- HEADER ------------------------------------------------------- */
 
 .navbar-brand svg {
@@ -300,4 +304,10 @@ div > button.btn:hover {
 
 .icon-big {
   transform: scale(1.5);
+}
+
+@media screen and (min-width: 768px) {
+  .down-li {
+    border-right: 1px solid rgba(0,0,0,0.2);
+  }
 }
