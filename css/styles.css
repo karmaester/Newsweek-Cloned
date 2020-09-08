@@ -133,9 +133,6 @@ div > button.btn:hover {
 .bottom-nav {
   right: 0;
   width: 13.9rem;
-}
-
-.bottom-nav {
   z-index: 1;
 }
 
