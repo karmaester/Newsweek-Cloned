@@ -312,10 +312,6 @@ div > button.btn:hover {
   .down-li {
     border-right: 1px solid rgba(0, 0, 0, 0.2);
   }
-
-  .hide-md {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -330,4 +326,8 @@ div > button.btn:hover {
   .minus-top {
     margin-top: -100px;
   }
+}
+
+.m-top {
+  margin-top: 41px;
 }
