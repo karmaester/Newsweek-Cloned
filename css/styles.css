@@ -270,8 +270,9 @@ div > button.btn:hover {
   display: block;
   height: 25px;
   width: 25px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
-    no-repeat #f72210;
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+      no-repeat #f72210;
 }
 
 .brick {
@@ -305,6 +306,6 @@ div > button.btn:hover {
 
 @media screen and (min-width: 768px) {
   .down-li {
-    border-right: 1px solid rgba(0,0,0,0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
   }
 }
